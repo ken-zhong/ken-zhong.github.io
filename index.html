@@ -1,1 +1,70 @@
-Hello World
+<!-- Dynamic Gallery 0.1 - initial version -->
+<!-- Create a simple photo gallery with a simple animated intro! -->
+<!--still to do: tidy up the code, create thumbnail carousel beneath main carousel-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ken Zhong</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        h1{
+            padding: 5px 10px 0px 20px;
+        }
+
+        hr{
+            width: 450px;
+            border-bottom: 2px solid rgba(80, 80, 80, .3);
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        h3{
+            padding-top: 80px;
+        }
+
+        .container{
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+
+        img{
+            box-shadow: 7px 7px 15px 0px rgba(55,55,55,0.65);
+        }
+
+
+    </style> 
+</head>
+<body>
+
+<h1>Ken Zhong</h1>
+<hr>
+
+
+    <div class="container">
+        <div class="col-lg-6 col-xs-12 text-center">
+            <h3>Simple Dynamic Gallery</h3>
+            <p>A simple photo gallery with a panning animation. Built in Javacript/canvas.</p>
+            <a href="https://ken-zhong.github.io/dynamicgallery/">Link</a>
+            <a href="https://github.com/ken-zhong/dynamicgallery">Github</a>
+        </div>
+        <div class="col-lg-6 col-xs-12">
+            <img src="pics/gallery.gif" class="img-responsive center-block">  
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-lg-6 col-xs-12">
+            <img src="pics/pong.png" width="450px" class="img-responsive center-block">  
+        </div>
+        <div class="col-lg-6 col-xs-12 text-center">
+            <h3>Pong</h3>
+            <p>The arcade classic, built following Gamekedo's tutorial. Built using only Javacript and HTML.</p>
+            <a href="https://ken-zhong.github.io/Pong/">Link</a>
+            <a href="https://github.com/ken-zhong/Pong">Github</a>
+        </div>
+    </div>
+
+</body>
+</html>
