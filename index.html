@@ -1,73 +1,51 @@
-<!-- Dynamic Gallery 0.1 - initial version -->
-<!-- Create a simple photo gallery with a simple animated intro! -->
-<!--still to do: tidy up the code, create thumbnail carousel beneath main carousel-->
-
 <!DOCTYPE html>
 <html>
-<head>
+<header>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="lib/mainpage.css">
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="INSERT DESCRIPTION HERE.">
+	<meta name="author" content"Ken Zhong">
+	<meta name="keywords" content="HTML, CSS, JavaScript, web development">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ken Zhong</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</header>
 
-    <style>
-        h1{
-            padding: 5px 10px 0px 20px;
-        }
-
-        hr{
-            width: 450px;
-            border-bottom: 2px solid rgba(80, 80, 80, .3);
-            text-align: left;
-            margin-left: 20px;
-        }
-
-        h3{
-            padding-top: 80px;
-        }
-
-        .container{
-            padding-top: 50px;
-            padding-bottom: 60px;
-        }
-
-        img{
-            box-shadow: 7px 7px 15px 0px rgba(55,55,55,0.65);
-        }
-
-        a{
-            padding: 5px 10px 5px 10px; 
-        }
-    </style> 
-
-</head>
 <body>
+	<nav class="navbar navbar-default navbar-fixed-top">	
+	<div class="container">
+		<div class="navbar-header ">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-top" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="https://ken-zhong.github.io" class="navbar-brand">Ken Zhong</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-navbar-top">
+			<ul class ="nav navbar-nav navbar-right">
+				<li><a href="https://ken-zhong.github.io/portfolio">Portfolio</a></li>
+				<li><a href="https://ken-zhong.github.io/photography/">Photography</a></li>
+				<li><a href="https://ken-zhong.github.io/blog">Blog</a></li>
+				<li class="active"><a href="https://ken-zhong.github.io">About</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div id="splashPage" class="jumbotron">
+			<h1>Under Construction</h1>
+			<p>coming soon!</p>
+		</div>
+	</div>	
 
-<h1>Ken Zhong</h1>
-<hr>
 
 
-    <div class="container">
-        <div class="col-lg-6 col-xs-12 text-center">
-            <h3>Simple Dynamic Gallery</h3>
-            <p>A simple photo gallery with a panning animation. Built in Javacript/canvas.</p>
-            <a href="https://ken-zhong.github.io/dynamicgallery/">Link</a>
-            <a href="https://github.com/ken-zhong/dynamicgallery">Github</a>
-        </div>
-        <div class="col-lg-6 col-xs-12">
-            <img src="pics/gallery.gif" class="img-responsive center-block">  
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="col-lg-6 col-xs-12">
-            <img src="pics/pong.png" width="450px" class="img-responsive center-block">  
-        </div>
-        <div class="col-lg-6 col-xs-12 text-center">
-            <h3>Pong</h3>
-            <p>The arcade classic, built following Gamekedo's tutorial. Built using only Javacript and HTML.</p>
-            <a href="https://ken-zhong.github.io/Pong/">Link</a>
-            <a href="https://github.com/ken-zhong/Pong">Github</a>
-        </div>
-    </div>
-
+<script src="lib/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
