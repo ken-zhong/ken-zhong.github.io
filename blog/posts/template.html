@@ -4,7 +4,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="lib/blog-style.css">
+	<link rel="stylesheet" href="../lib/blog-style.css">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +33,7 @@
 				<li><a href="https://ken-zhong.github.io/photography/">Photography</a></li>
 				<li class="active"><a href="https://ken-zhong.github.io/blog">Blog</a></li>
 				<li><a href="https://ken-zhong.github.io">About</a></li>
-				<li><a href="https://github.com/ken-zhong" id="gitMark" target="_blank"><img src="lib/gitMark.png"></a></li>
+				<li><a href="https://github.com/ken-zhong" id="gitMark" target="_blank"><img src="../lib/gitMark.png"></a></li>
 			</ul>
 		</div>
 	</nav>
@@ -44,10 +44,43 @@
 		</div>
 	</div>	
 
+	<div class="container">
+		<h1>TITLE OF POST</h1>
+		<h4>DATE GOES HERE</h4>
+
+		<img src="">
+
+		<p>
+			CONTENT GOES HERE
+		</p>
+
+	</div>
 
 
-<script src="lib/jquery-3.2.1.min.js"></script>
+
+<div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://ken-zhong.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script id="dsq-count-scr" src="//ken-zhong.disqus.com/count.js" async></script>
 </body>
 
 </html>

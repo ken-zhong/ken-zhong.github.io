@@ -24,3 +24,7 @@ body{
 .git-link{
     padding: 5px 10px 5px 10px; 
 }
+
+.project-text{
+    margin: auto;
+}

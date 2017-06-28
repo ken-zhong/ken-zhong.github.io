@@ -4,7 +4,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="lib/mainpage.css">
 	<link rel="stylesheet" type="text/css" href="lib/dynamicGallery.css">
 
 	<meta charset="utf-8">
@@ -49,12 +48,12 @@
 	<!-- TO DO FOR FUTURE VERSION: create a self-updating thumbnail carousel beneath the main display block  -->
 	<!-- hard-coded below right now-->
 	<ul id="dG-thumbnails">
-		<li value="0" class="dG-thumbs"><img src="http://i.imgur.com/9slii5ys.jpg"></li>
-		<li value="1" class="dG-thumbs"><img src="http://i.imgur.com/6EGCU9gs.jpg"></li>
-		<li value="2" class="dG-thumbs"><img src="http://i.imgur.com/84oTBl8s.jpg"></li>
-		<li value="3" class="dG-thumbs"><img src="http://i.imgur.com/ZZO5JWZs.jpg"></li>
-		<li value="4" class="dG-thumbs"><img src="http://i.imgur.com/Ls5Iuv5s.jpg"></li>
-		<li value="5" class="dG-thumbs"><img src="http://i.imgur.com/QGJnyais.jpg"></li>
+		<li value="0" class="dG-thumbs"><img class="dg-test1" src="photos/thumbnails/1.jpg"></li>
+		<li value="1" class="dG-thumbs"><img src="photos/thumbnails/2.jpg"></li>
+		<li value="2" class="dG-thumbs"><img src="photos/thumbnails/3.jpg"></li>
+		<li value="3" class="dG-thumbs"><img src="photos/thumbnails/4.jpg"></li>
+		<li value="4" class="dG-thumbs"><img src="photos/thumbnails/5.jpg"></li>
+		<li value="5" class="dG-thumbs"><img src="photos/thumbnails/6.jpg"></li>
 	</ul>
 </div>
 <div class="container" id="endNote">	
@@ -68,7 +67,8 @@
 
 
 <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="lib/bootstrap.min.js"></script><script>
+<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+<script>
 	$(document).ready(function(){
 		$('[data-toggle="popover"]').popover(); 
 	});

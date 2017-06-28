@@ -50,8 +50,17 @@
 }
 
 /*styling elements for stuff on the demo page that's NOT part of the carousel code*/
-html, body {
-    padding-top: 50px;
+body{
+    padding-top: 70px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+#gitMark{
+    padding: 9px;
 }
 
 .glyphicon{
