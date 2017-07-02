@@ -81,6 +81,7 @@ function createImage(num){
     imgSize = canvas.width*1.1;
     ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     
+    updateThumbnail();
     clearInterval(interval);
     interval = setInterval(drawImage, 1000/60);
 }
@@ -89,6 +90,20 @@ function drawImage(){
     if(imgSize > canvas.width){
         ctx.drawImage(img, 0, 0, imgSize, imgSize/imgAR);
         imgSize--;
+    } else {
+        clearInterval(interval);
+    }
+}
+
+function updateThumbnail(){
+    var images = document.querySelectorAll(".img-thumbnails");
+
+    for(var i = 0; i < images.length; i++){
+        if(i === dynamicGallery.imageDisplay){
+            images[i].classList.add("thumb-selected"); 
+        } else {
+            images[i].classList.remove("thumb-selected");
+        }
     }
 }
 

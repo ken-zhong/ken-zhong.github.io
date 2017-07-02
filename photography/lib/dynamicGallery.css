@@ -49,6 +49,13 @@
     /*height: 130px;*/
 }
 
+.thumb-selected{
+    -webkit-box-shadow:0px 0px 20px 3px #735959 ;
+    -moz-box-shadow:0px 0px 20px 3px #735959 ;
+    box-shadow:0px 0px 20px 3px #735959 ;
+}
+
+
 /*styling elements for stuff on the demo page that's NOT part of the carousel code*/
 body{
     padding-top: 70px;
