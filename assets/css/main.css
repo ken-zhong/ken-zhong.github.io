@@ -55,6 +55,7 @@
 		.kz-pic img {
 			width: 80%;
 			height: auto;
+			object-fit: cover;
 		}
 	
 	.kz-link-title {
@@ -79,6 +80,31 @@
 	
 	.kz-devicon-container i {
 		margin: 15px;
+	}
+
+	.kz-image {
+		margin-bottom: 40px;
+	}	
+	.kz-image img {
+		border-radius: 50%;
+		height: 250px;
+		width: 250px;
+	}
+	
+	.kz-contact {
+		width: fit-content !important;
+		margin: 35px auto !important;
+	}
+	
+	.kz-contact dd {
+		text-align: left;
+	}
+	
+	@media (max-width: 420px) {
+		.kz-image img {
+			height: 200px;
+			width: 200px;
+		}
 	}
 /* Box Model */
 
