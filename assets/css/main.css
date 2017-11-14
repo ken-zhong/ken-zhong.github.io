@@ -52,6 +52,11 @@
 	.kz-pic {
 		width: 100%;
 	}
+		.kz-pic a {
+			text-decoration: none;
+			border-bottom: none;
+		}
+
 		.kz-pic img {
 			width: 80%;
 			height: auto;
