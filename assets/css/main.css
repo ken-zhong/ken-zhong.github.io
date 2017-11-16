@@ -65,7 +65,7 @@
 
 	.kz-link-title {
 		text-decoration: none;
-		border-bottom: none;
+		border-bottom: solid 1px #ddd;
 	}
 		.kz-link-title:hover {
 			color: #1d87c4 !important;
@@ -111,6 +111,7 @@
 			width: 200px;
 		}
 	}
+
 /* Box Model */
 
 	*, *:before, *:after {
