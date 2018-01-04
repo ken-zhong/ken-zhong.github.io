@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Experience from './components/experience';
+import Projects from './components/projects';
+import Skills from './components/skills';
 import './App.css';
 
 class App extends Component {
@@ -7,6 +10,14 @@ class App extends Component {
     this.state = {
       showModal: false
     };
+  }
+
+  openModal (modal) {
+    this.setState({showModal: modal});
+  }
+
+  closeModal () {
+    this.setState({showModal: false});
   }
 
   renderMain () {
@@ -29,9 +40,9 @@ class App extends Component {
         </p>
 
         <ul>
-          <li><span className='button-std'>Experience</span></li>
-          <li><span className='button-std'>Recent Projects</span></li>
-          <li><span className='button-std'>Skills</span></li>
+          <li><span className='button-std' onClick={() => this.openModal('experience')}>Experience</span></li>
+          <li><span className='button-std' onClick={() => this.openModal('projects')}>Recent Projects</span></li>
+          <li><span className='button-std' onClick={() => this.openModal('skills')}>Skills</span></li>
         </ul>
 
         <footer>© Ken Zhong {new Date().getFullYear()}</footer>
@@ -39,8 +50,12 @@ class App extends Component {
     );
   }
 
-  renderModal (modal) {
-    return null;
+  renderModal () {
+    switch (this.state.showModal) {
+      case 'skills': return <Skills closeModal={this.closeModal.bind(this)} />;
+      case 'experience': return <Experience closeModal={this.closeModal.bind(this)} />;
+      default: return null;
+    }
   }
 
   render () {
