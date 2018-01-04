@@ -32,7 +32,6 @@ class App extends Component {
           <li><span className='button-std'>Experience</span></li>
           <li><span className='button-std'>Recent Projects</span></li>
           <li><span className='button-std'>Skills</span></li>
-          <li><span className='button-std'>Contact</span></li>
         </ul>
 
         <footer>© Ken Zhong {new Date().getFullYear()}</footer>
