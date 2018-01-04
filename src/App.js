@@ -3,6 +3,7 @@ import Experience from './components/experience';
 import Projects from './components/projects';
 import Skills from './components/skills';
 import './App.css';
+import './Modal.css';
 
 class App extends Component {
   constructor (props) {

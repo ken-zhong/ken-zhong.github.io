@@ -3,11 +3,6 @@
   100% {opacity: 1;}
 }
 
-@keyframes zoom-open {
-  0% {transform: scale(0.3, 0.3)}
-  100% {transform: scale(1, 1)}
-}
-
 .App {
   /* background-image: linear-gradient(to top, #0e2347 20%, #030a16 100%); */
   height: 100vh;
@@ -30,35 +25,6 @@
   animation: fade-in 2s;
 }
 
-.modal {
-  overflow: auto;
-  max-height: 90vh;
-  max-width: 90%;
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 5vh;
-  background-color: rgba(27, 31, 34, .85);
-  animation: zoom-open .8s;
-  color: white;
-}
-
-.kz-devicon-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 80px;
-  padding: 10px 50px;
-}
-
-.kz-devicon-container * {
-  margin: 10px;
-}
-
-.kz-devicon-container img {
-  margin: 0;
-  margin-bottom:30%;
-}
-
 .button-std {
   margin: 5px;
   border: solid 1px white;
@@ -71,11 +37,6 @@
 .button-std:hover {
   color: #030a16;
   background: white;
-}
-
-.btn-close-modal {
-  font-size: 1.5em;
-  cursor: pointer;
 }
 
 ul {

@@ -7,4 +7,4 @@ const Experience = (props) => (
   </div>
 );
 
-export default Experience
+export default Experience;
