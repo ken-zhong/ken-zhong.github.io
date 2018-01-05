@@ -52,6 +52,27 @@
   margin-bottom:30%;
 }
 
+/* EXPERIENCE SECTION */
+.experience-company {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-description {
+  padding-left: 0;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.experience-description li {
+  list-style: initial;
+}
+
 @media only screen and (min-width: 568px) {
   .modal main {
     padding: 10px 50px;
