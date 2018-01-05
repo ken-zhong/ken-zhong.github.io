@@ -43,6 +43,11 @@ ul {
   margin-top: 40px;
 }
 
+li {
+  box-sizing: border-box;
+  list-style: none;
+}
+
 footer {
   position: fixed;
   bottom: 50px;
@@ -58,4 +63,19 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+
+@media only screen and (min-width: 560px) {
+  ul {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .button-std {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+  }
 }

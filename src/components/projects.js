@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = (props) => (
   <div className='modal'>
-    <h3>Modal</h3>
+    <h2>Recent Projects</h2>
     <span className='btn-close-modal' onClick={props.closeModal}>✖</span>
   </div>
 );

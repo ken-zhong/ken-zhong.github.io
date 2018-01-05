@@ -28,7 +28,7 @@ class App extends Component {
         <h4>
           <a href='https://github.com/ken-zhong' target='_blank' rel='noopener noreferrer'>GITHUB</a>
           &nbsp;&nbsp;·&nbsp;&nbsp;<a href='#'>RESUME</a>
-          &nbsp;&nbsp;·&nbsp;&nbsp;<a href='mailto:kenzhong@gmail.com'>KENZHONG@GMAIL.COM</a>
+        &nbsp;&nbsp;·&nbsp;&nbsp;<a href='mailto:kenzhong@gmail.com'>EMAIL ME</a>
         </h4>
 
         <p>
@@ -55,7 +55,8 @@ class App extends Component {
     switch (this.state.showModal) {
       case 'skills': return <Skills closeModal={this.closeModal.bind(this)} />;
       case 'experience': return <Experience closeModal={this.closeModal.bind(this)} />;
-      default: return null;
+      case 'projects': return <Projects closeModal={this.closeModal.bind(this)} />;
+      default: return 'ERROR';
     }
   }
 
