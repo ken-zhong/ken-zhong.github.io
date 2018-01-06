@@ -9,8 +9,6 @@
   display: flex;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-weight: 300;
-  /* background-color: #060314; */
-  /* animation: background-animation 18s infinite; */
   background-image: url(./assets/background.jpg);
   background-position: 50% 50%;
   background-size: cover;
@@ -63,6 +61,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #00a3f4;
 }
 
 
