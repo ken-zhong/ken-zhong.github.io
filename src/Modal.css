@@ -73,6 +73,25 @@
   list-style: initial;
 }
 
+/* PROJECT SECTION */
+.project-item {
+  margin-bottom: 30px;
+}
+
+.project-item h3 {
+  text-align: center;
+}
+
+.project-img {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+}
+
+.project-img img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 568px) {
   .modal main {
     padding: 10px 50px;
