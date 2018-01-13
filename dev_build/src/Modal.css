@@ -1,0 +1,99 @@
+@keyframes zoom-open {
+  0% {transform: scale(0.3, 0.3)}
+  100% {transform: scale(1, 1)}
+}
+
+.modal {
+  overflow: auto;
+  max-height: 90vh;
+  max-width: 90%;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  background-color: rgba(27, 31, 34, .85);
+  animation: zoom-open .8s;
+  color: white;
+  position: relative;
+}
+
+.modal h2 {
+  text-align: center;
+}
+
+.modal main {
+  padding: 10px 20px;
+}
+
+.btn-close-modal {
+  font-size: 1.5em;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+
+.btn-close-modal:hover {
+  color: red;
+}
+
+.kz-devicon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 80px;
+}
+
+.kz-devicon-container * {
+  margin: 10px;
+}
+
+.kz-devicon-container img {
+  margin: 0;
+  margin-bottom:30%;
+}
+
+/* EXPERIENCE SECTION */
+.experience-company {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-description {
+  padding-left: 0;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.experience-description li {
+  list-style: initial;
+}
+
+/* PROJECT SECTION */
+.project-item {
+  margin-bottom: 30px;
+}
+
+.project-item h3 {
+  text-align: center;
+}
+
+.project-img {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+}
+
+.project-img img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 568px) {
+  .modal main {
+    padding: 10px 50px;
+  }
+}

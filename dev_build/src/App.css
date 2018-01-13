@@ -1,0 +1,80 @@
+@keyframes fade-in {
+  0% {opacity: .1;}
+  100% {opacity: 1;}
+}
+
+.App {
+  /* background-image: linear-gradient(to top, #0e2347 20%, #030a16 100%); */
+  height: 100vh;
+  display: flex;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background-image: url(./assets/background.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.main-content {
+  margin: 0 auto;
+  margin-top: 10%;
+  color: white;
+  max-width: 80%;
+  width: 600px;
+  animation: fade-in 2s;
+}
+
+.button-std {
+  margin: 5px;
+  border: solid 1px white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-std:hover {
+  color: #030a16;
+  background: white;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+li {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 50px;
+  margin: 0 auto;
+  opacity: .5;
+  font-size: .8em;
+}
+
+a {
+  color: white;
+  text-decoration-style: dotted;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00a3f4;
+}
+
+
+@media only screen and (min-width: 560px) {
+  ul {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .button-std {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+  }
+}
