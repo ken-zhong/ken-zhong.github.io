@@ -15,10 +15,16 @@ const Experience = (props) => (
         <ul className='experience-description'>
           <li>Developed features for a full stack application utilizing Ruby on Rails, JavaScript, React, MySQL, and GraphQL.</li>
           <li>Wrote backend unit tests with RSPEC and frontend tests with Jest, Enzyme, and Storybook, improving test coverage and application reliability. </li>
-          // <li>Rebuilt site's main omnisearch index using Elasticsearch, improving query times and accuracy.</li>
         </ul>
       </div>
     </main>
+
+  </div>
+);
+
+export default Experience;
+
+// <li>Rebuilt site's main omnisearch index using Elasticsearch, improving query times and accuracy.</li>
 
 //     <h2>Previous Experience</h2>
 //     <main>
@@ -48,7 +54,3 @@ const Experience = (props) => (
 //         </ul>
 //       </div>
 //     </main>
-  </div>
-);
-
-export default Experience;

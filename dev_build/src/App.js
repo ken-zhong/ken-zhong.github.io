@@ -23,6 +23,7 @@ class App extends Component {
   }
 
   renderMain () {
+    // <a href={Resume}>RESUME</a>
     return (
       <div className='main-content'>
         <h1>Hi, I'm Ken Zhong</h1>
@@ -30,7 +31,6 @@ class App extends Component {
           <a href='https://github.com/ken-zhong' target='_blank' rel='noopener noreferrer'>GITHUB</a>
           &nbsp;&nbsp;·&nbsp;&nbsp;
           <a href="#">RESUME</a>
-          // <a href={Resume}>RESUME</a>
           &nbsp;&nbsp;·&nbsp;&nbsp;
           <a href='mailto:kenzhong@gmail.com'>EMAIL ME</a>
         </h4>
