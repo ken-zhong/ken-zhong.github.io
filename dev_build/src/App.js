@@ -28,8 +28,11 @@ class App extends Component {
         <h1>Hi, I'm Ken Zhong</h1>
         <h4>
           <a href='https://github.com/ken-zhong' target='_blank' rel='noopener noreferrer'>GITHUB</a>
-          &nbsp;&nbsp;·&nbsp;&nbsp;<a href={Resume}>RESUME</a>
-        &nbsp;&nbsp;·&nbsp;&nbsp;<a href='mailto:kenzhong@gmail.com'>EMAIL ME</a>
+          &nbsp;&nbsp;·&nbsp;&nbsp;
+          <a href="#">RESUME</a>
+          // <a href={Resume}>RESUME</a>
+          &nbsp;&nbsp;·&nbsp;&nbsp;
+          <a href='mailto:kenzhong@gmail.com'>EMAIL ME</a>
         </h4>
 
         <p>
