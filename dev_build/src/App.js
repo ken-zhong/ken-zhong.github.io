@@ -45,7 +45,9 @@ class App extends Component {
             GITHUB
           </a>
           &nbsp;&nbsp;·&nbsp;&nbsp;
-          <a href={Resume}>RESUME</a>
+          <a href={Resume} target="_blank">
+            RESUME
+          </a>
           &nbsp;&nbsp;·&nbsp;&nbsp;
           <a href="mailto:kenzhong@gmail.com">EMAIL ME</a>
         </h4>
