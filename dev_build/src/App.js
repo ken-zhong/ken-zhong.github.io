@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Experience from './components/experience';
 import Projects from './components/projects';
 import Skills from './components/skills';
-import Resume from './assets/Ken_Zhong_resume_2018.pdf';
+import Resume from './assets/Ken_Zhong_resume_2020.pdf';
 import './App.css';
 import './Modal.css';
 

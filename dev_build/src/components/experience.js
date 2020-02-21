@@ -8,10 +8,35 @@ const Experience = props => (
     <h2>Software Experience</h2>
     <main>
       <div className="experience-blurb">
+        <span className="experience-company">Blink Health</span>
+        <div className="experience-header">
+          <span>Software Engineer</span>
+          <span>2/2019 - present</span>
+        </div>
+        <ul className="experience-description">
+          <li>
+            Built and maintained features as a full-stack software engineer using Python 3/Django,
+            React/Redux, PostgreSQL.
+          </li>
+          <li>
+            Integrated internal Python microservices utilizing webhooks and AWS SQS queues for
+            messaging.
+          </li>
+          <li>
+            Implemented a new frontend API querying library and frontend cache in a large
+            refactor/rewrite of internal pharmacy web app using React.
+          </li>
+          <li>
+            Lead the development of a beta version of our front-end consumer pharmacy experience in
+            main React/Redux desktop codebase.
+          </li>
+        </ul>
+      </div>
+      <div className="experience-blurb">
         <span className="experience-company">SumZero</span>
         <div className="experience-header">
           <span>Software Engineer</span>
-          <span>1/2018 - present</span>
+          <span>1/2018 - 2/2019</span>
         </div>
         <ul className="experience-description">
           <li>
@@ -37,7 +62,7 @@ const Experience = props => (
 
     <h2>Other Work Experience</h2>
     <main>
-      <div className="experience-blurb">
+      {/* <div className="experience-blurb">
         <span className="experience-company">Testmasters</span>
         <div className="experience-header">
           <span>Instructor</span>
@@ -49,7 +74,7 @@ const Experience = props => (
             provided private one-on-one tutoring.
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="experience-blurb">
         <span className="experience-company">Microsoft</span>
         <div className="experience-header">
