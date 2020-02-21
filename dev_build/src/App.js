@@ -54,7 +54,7 @@ class App extends Component {
 
         <p>
           I'm a NYC-based full stack software engineer who's passionate about learning new things
-          and creating experiences. I'm currently working with React, GraphQL, and Ruby on Rails.
+          and creating experiences. I'm currently working with React, Python/Django, and SQL.
         </p>
         <p>When I'm not coding, I enjoy reading, photography, and playing tennis.</p>
 
